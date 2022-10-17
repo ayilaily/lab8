@@ -40,13 +40,13 @@ let lab3 = [5, 9, 10, 15];
 let sum3 = lab3[0] + lab3[1] + lab3[2] + lab3[3];
 
 let lab4_5 = [10, 5, 3, 5, 5, 5, 10, 10, 10, 10, 4];
-let sum4_5 = (lab4_5[0] + lab4_5[1] + lab4_5[2] + lab4_5[3] + lab4_5[4] + lab4_5[5] + lab4_5[6] + lab4_5[7] + lab4_5[8] + lab4_5[9] + lab4_5[10])*0.5;
+let sum4_5 = lab4_5[0] + lab4_5[1] + lab4_5[2] + lab4_5[3] + lab4_5[4] + lab4_5[5] + lab4_5[6] + lab4_5[7] + lab4_5[8] + lab4_5[9] + lab4_5[10];
 
 let lab6 = [5, 5, 10, 5, 5, 10];
 let sum6 = lab6[0] + lab6[1] + lab6[2] + lab6[3] + lab6[4] + lab6[5];
 
 let sums = [sum1, sum2, sum3, sum4_5, sum6];
-avg_labs_score = (sum1 + sum2 + sum3 + sum4_5 + sum6)/5;
+avg_labs_score = (sum1 + sum2 + sum3 + sum4_5 + sum6)/6;
 quiz_score = 32;
 console.log(sums);
 
